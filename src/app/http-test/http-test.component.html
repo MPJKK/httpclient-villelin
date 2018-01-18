@@ -1,3 +1,8 @@
-<p>
-    {{ tulos }}
+<!--<p>
+    <img src="http://media.mw.metropolia.fi/wbma/uploads/{{ apitulos }}">
+</p>-->
+
+
+<p *ngFor="let tulos of tulokset">
+    {{ tulos.title_fi }}
 </p>
